@@ -167,3 +167,36 @@ body{
 .lista__link a:active{
     color: purple;
 }
+
+@media (max-width: 1200px){
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.dispositivos__lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.rodape__logo{
+    width: 20%;
+}
+
+.invertido{
+    flex-direction: column-reverse;
+}
+
+}
